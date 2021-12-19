@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> tests should match dark button snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 82,
+        "marginHorizontal": 4.5,
+        "overflow": "hidden",
+        "width": "50%",
+      },
+      Object {},
+      Object {},
+      Object {
+        "backgroundColor": "#292C5A",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 82,
+        "paddingHorizontal": 21.5,
+        "paddingVertical": 29.5,
+      }
+    }
+    text="test"
+    type="dark"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Button /> tests should match dark disabled button snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 82,
+        "marginHorizontal": 4.5,
+        "overflow": "hidden",
+        "width": "50%",
+      },
+      Object {
+        "backgroundColor": "#a8006c",
+        "opacity": 0.9,
+      },
+      Object {},
+      Object {
+        "backgroundColor": "#292C5A",
+      },
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 82,
+        "paddingHorizontal": 21.5,
+        "paddingVertical": 29.5,
+      }
+    }
+    text="test"
+    type="dark"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Button /> tests should match normal button snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 82,
+        "marginHorizontal": 4.5,
+        "overflow": "hidden",
+        "width": "50%",
+      },
+      Object {},
+      Object {},
+      Object {},
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 82,
+        "paddingHorizontal": 21.5,
+        "paddingVertical": 29.5,
+      }
+    }
+    text="test"
+    type="normal"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+          Object {},
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Button /> tests should match normal disabled button snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 82,
+        "marginHorizontal": 4.5,
+        "overflow": "hidden",
+        "width": "50%",
+      },
+      Object {
+        "backgroundColor": "#a8006c",
+        "opacity": 0.9,
+      },
+      Object {},
+      Object {},
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 82,
+        "paddingHorizontal": 21.5,
+        "paddingVertical": 29.5,
+      }
+    }
+    text="test"
+    type="normal"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+          Object {},
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Button /> tests should match transparent button snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 82,
+        "marginHorizontal": 4.5,
+        "overflow": "hidden",
+        "width": "50%",
+      },
+      Object {},
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#FFFFFF",
+        "borderWidth": 4,
+        "transform": Array [
+          Object {
+            "scaleY": 0.9512195121951219,
+          },
+        ],
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 82,
+        "paddingHorizontal": 21.5,
+        "paddingVertical": 29.5,
+      }
+    }
+    text="test"
+    type="transparent"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Button /> tests should match transparent disabled button snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 82,
+        "marginHorizontal": 4.5,
+        "overflow": "hidden",
+        "width": "50%",
+      },
+      Object {
+        "backgroundColor": "#a8006c",
+        "opacity": 0.9,
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#FFFFFF",
+        "borderWidth": 4,
+        "transform": Array [
+          Object {
+            "scaleY": 0.9512195121951219,
+          },
+        ],
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 82,
+        "paddingHorizontal": 21.5,
+        "paddingVertical": 29.5,
+      }
+    }
+    text="test"
+    type="transparent"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;

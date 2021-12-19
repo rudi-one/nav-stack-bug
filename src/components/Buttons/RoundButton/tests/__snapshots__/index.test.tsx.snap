@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> tests should match snapshot of big button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 127.5,
+        "height": 255,
+        "width": 255,
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    size="big"
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    text="test"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontFamily": "CoreMellow55Medium",
+            "fontSize": 41,
+            "textAlign": "center",
+            "textTransform": "uppercase",
+          },
+          Object {},
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Button /> tests should match snapshot of disabled button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 85,
+        "height": 170,
+        "width": 170,
+      },
+      Object {
+        "backgroundColor": "#a8006c",
+        "opacity": 0.9,
+      },
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    size="small"
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    text="test"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontFamily": "CoreMellow55Medium",
+            "fontSize": 41,
+            "textAlign": "center",
+            "textTransform": "uppercase",
+          },
+          Object {
+            "fontSize": 27,
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<Button /> tests should match snapshot of small button 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "borderRadius": 85,
+        "height": 170,
+        "width": 170,
+      },
+      Object {},
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    size="small"
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    text="test"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#292C5A",
+            "fontFamily": "CoreMellow55Medium",
+            "fontSize": 41,
+            "textAlign": "center",
+            "textTransform": "uppercase",
+          },
+          Object {
+            "fontSize": 27,
+          },
+        ]
+      }
+    >
+      test
+    </Text>
+  </View>
+</View>
+`;
